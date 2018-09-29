@@ -19,7 +19,7 @@ public class DetalhesDoFilme {
 	@JsonProperty("Plot")
 	private String descricao;
 	@JsonProperty("ImdbRating")
-	private Double avaliaçao;
+	private Double avaliacao;
 	
 	
 	public String getTitulo() {
@@ -78,12 +78,12 @@ public class DetalhesDoFilme {
 		this.descricao = descricao;
 	}
 	
-	public Double getAvaliaçao() {
-		return avaliaçao;
+	public Double getAvaliacao() {
+		return avaliacao;
 	}
 	
-	public void setAvaliaçao(Double avaliaçao) {
-		this.avaliaçao = avaliaçao;
+	public void setAvaliacao(Double avaliacao) {
+		this.avaliacao = avaliacao;
 	}
 	
 }
