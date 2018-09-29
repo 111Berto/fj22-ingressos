@@ -22,7 +22,7 @@ public class ImdbClient {
 			
 			String titulo = filme.getNome().replace(" ","+");
 			
-			String url = String.format("https://omdb-fj22.herokuapp.com/movie?title=rogue+one", titulo);
+			String url = String.format("https://omdb-fj22.herokuapp.com/movie?title=%s", titulo);
 			
 			try{
 				DetalhesDoFilme detalhesDoFilme = client.getForObject(url, DetalhesDoFilme.class);
