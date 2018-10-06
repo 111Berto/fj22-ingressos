@@ -8,3 +8,8 @@ cache:
   - "$HOME/.m2/"
 script:
 - mvn clean package
+-mvn sonar:sonar \
+  -Dsonar.projectKey=111Berto_fj22-ingressos \
+  -Dsonar.organization=111berto-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=a5938ff6295b24d1b54f9c65586c80c22556aec9
