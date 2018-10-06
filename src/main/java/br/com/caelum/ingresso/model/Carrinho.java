@@ -14,6 +14,7 @@ public class Carrinho {
 	private List<Ingresso> ingressos = new ArrayList<>();
 	
 	public void add(Ingresso ingresso){
+			System.out.println("Ingresso!!");
 			ingressos.add(ingresso);
 	}
 	
