@@ -25,6 +25,10 @@ public class Carrinho {
 	public BigDecimal getTotal(){
 		return ingressos.stream().map(Ingresso::getPreco).reduce(BigDecimal::add).orElse(BigDecimal.ZERO);
 	}
+	
+	public Compra toCompra(){
+		return new Compra(ingressos);
+	}
 
 	public List<Ingresso> getIngressos() {
 		return ingressos;
