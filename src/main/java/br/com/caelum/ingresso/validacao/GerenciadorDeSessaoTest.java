@@ -1,4 +1,4 @@
-package br.com.caelum.ingresso.validação;
+package br.com.caelum.ingresso.validacao;
 
 import java.math.BigDecimal;
 import java.time.Duration;

@@ -1,4 +1,4 @@
-package br.com.caelum.ingresso.validação;
+package br.com.caelum.ingresso.validacao;
 
 import java.time.LocalTime;
 import java.util.List;
