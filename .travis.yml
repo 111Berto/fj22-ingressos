@@ -8,7 +8,7 @@ cache:
   - "$HOME/.m2/"
 script:
 - mvn clean package
--mvn sonar:sonar \
+- mvn sonar:sonar \
   -Dsonar.projectKey=111Berto_fj22-ingressos \
   -Dsonar.organization=111berto-github \
   -Dsonar.host.url=https://sonarcloud.io \
